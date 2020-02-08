@@ -12,6 +12,6 @@ setup(name="slotMachine",
       packages=['slotMachine'],
       install_requires=requirements,
       entry_points={
-        'console_scripts':['run slotMachine=slotMachine.main:main']
+        'console_scripts':['run_slotMachine=slotMachine.main:main']
         }
       )
